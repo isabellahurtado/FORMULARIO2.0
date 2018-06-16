@@ -1,31 +1,175 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulario2</title>
+    <title>Formulario2</title>
+    <meta charset="utf-8">
 </head>
 <body>
     <div>
-	<button>Aceder al formulario</button>
+    <br>
+    <HEADER>
+    <button>Aceder al formulario</button>
+    </HEADER>
+    </br>
     </div>
     <div>
-    <label>Fecha de solicitud</label>
-    <input type="text" placeholder="mm/dd/yyyy">
+    <br>
+    <dd>Fecha de solicitud</dd>
+    <input type ="text" placeholder="mm/dd/yyyy">
+    </br>
     </div>
     <div>
-    <label>Nombre completo</label>
-   <input type="Name">
+    <br>
+    <dd>Nombre completo</dd>
+    <input type ="name" placeholder="Pepito Perez">
+    </br>
     </div>
     <div>
-    <label>Fecha de nacimiento</label>
-    <input type="text" placeholder="mm/dd/yyyy">
+    <br>
+    <dd>Fecha de nacimiento</dd>
+    <input type ="text" placeholder="mm/dd/yyyy">
+    </br>
     </div>
     <div>
-    <label>Correo electronico</label>
-    <input type="email">
+    <br>
+    <dd>Correo electronico</dd>
+    <input type ="email" placeholder="alguien@ejemplo.com">
+    </br>
     </div>
     <div>
-    <label>Telefono</label>
-    <input type="tel">
-    </div>	
+    <br>    
+    <dd>Telefono</dd>
+    <input type ="tel" placeholder="5557776">
+    </br>
+    </div>
+    <div>
+    <br>
+    <label>Seleccione su genero:</label>
+    <label>
+    <input type="radio" name="genero">
+    Masculino
+    </label> 
+    <label>
+    <input type="radio" name="genero">
+    Femenino
+    </label> 
+    <label>
+    <input type="radio" name="genero">
+    Otro
+    </label>
+    </br>
+    </div> 
+    <div>
+    <br>
+   <label>Departamento:</label>
+  <select>
+  <option>Seleccione departamento</option>                     
+  <option>Amazonas</option>    
+  <option>Antioquia</option>                               
+  <option>Arauca</option>
+  <option>bolivar</option>
+  <option>Boyaca</option> 
+  <option>Caldas</option>
+  <option>Caqueta</option>
+  <option>Casanare</option>
+  <option>Cauca</option>                                                                            
+  <option>Cesar</option>
+  <option>Choco</option>
+  <option>Cordova</option>  
+  <option>Cundinamarca</option>  
+  <option>Guaina</option>
+  <option>Guaviare</option>
+  <option>Huila</option>
+  <option>Guajira</option>
+  <option>Magdalela</option>
+  <option>Meta</option>
+  <option>Nariño</option>
+  <option>Putumayo</option>
+  <option>Norte de santander</option>
+  <option>Quindio</option>
+  <option>Risaralda</option>
+  <option>San andres</option>
+  <option>Santander</option>
+  <option>Sucre</option>
+  <option>Tolima</option>
+  <option>Valle del cauca</option>
+  <option>Vaupes</option>
+  <option>Vichada</option>
+  </select>
+  </div>
+    <div>
+    <br>
+    <dd>Ciudad</dd>
+    <select>
+    <option>Selecciona una ciudad</option>
+    <option>nose</option>
+    </select>
+    </div>
+    <div>
+    <br>    
+    <dd>Direccion</dd>
+    <input type="text" placeholder="Cr 22 #22c - 22">
+    </div>
+    <div>
+    <br>
+    <label>Seleccione el tipo de domicilio:</label>
+    <label>
+    <input type="radio" name="status">
+     Casa
+    </label>
+     <label>
+    <input type="radio" name="status">
+     Apartamento
+    </label>
+     <label>
+    <input type="radio" name="status">
+     Finca
+    </label>
+     <label>
+    <input type="radio" name="status">
+     Otro
+    </label>
+    </div>
+    <div>
+    <label>Expecifique "otro"</label>
+    <input type="text">
+    </div>
+    <div>
+    <br>
+    <label>Numero de integrantes del domicilio</label>
+    <input type="text">
+    </div>
+    <div>
+    <br>
+    <label>¿Por que quieres adoptar una mascota?</label>
+    <input type="text">
+    </div>
+    <div>
+    <br>
+    <label>¿Tienes experiencia con los animales?:</label>
+    <label>
+    <input type="radio" name="status">
+     Si
+    </label>
+    <input type="radio" name="status">
+     No
+    </label>
+    <div>
+    <br>
+    <label>¿Tienes otras mascotas?:</label>
+    <label>
+    <input type="radio" name="status">
+     Si
+    </label>
+    <input type="radio" name="status">
+     No
+    </label>
+    </div>
+    <div>
+    <br>
+    <label>¿Cuales son tus ingresos mensuales?</label>
+    <input type="text">
+    </div>
+</form>
 </body>
 </html>
