@@ -1,20 +1,44 @@
 .boton1 {
-	text-align: center;
+   text-align: center;
 }
 
-button {
-     background-color: #2ECCFA;
-     color: #FFFFFF;
+.container {
+   border:  1px solid #000;
+   margin:  70px;
 }
 
-.contenedor {
-	   border:  1px solid #000;
-	   margin: 70px;
+.encabezado-y-pie-del-form {
+	background-color: #D8D8D8; 
+	padding: 10px;
+	border: 1px solid #6E6E6E;
+
 }
 
 .columna {
-      display: inline-block;
-      width: 48%;
-      padding-left: 10px;  
+   display: inline-block;
+   width: 48%;
+   padding-left: 10px;  
+   text-align: center;
 }
+
+label {
+   font : 16px "typewriter", sans-serif;
+}
+
+input, select {
+   padding: 8px;
+   width: 500px;
+}
+
+button {
+   background-color: #0040FF;
+   color: #FFF;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   padding: 10px;
+   font : 15px "typewriter", sans-serif;
+
+}
+
+
 

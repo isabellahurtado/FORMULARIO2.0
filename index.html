@@ -1,68 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulario2</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
+  <title>Formulario2</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css"> <!--importe el archivos con los estilos-->
 </head>
 <body> 
-   <header>
+  <header> <!--Botón para accerder al formulario-->
     <div class="boton1">
-    <button type="submit">Aceder al formulario</button>
+     <button type="submit">Aceder al formulario</button>
     </div>
-    </header>  
- <div >
-<form class="contenedor"> 
-    <div>
-    <label>Fecha de solicitud</label>
-</div>
-<div>
-    <input type ="text" placeholder="mm/dd/yyyy">
-</div>
-<div class="columna">
-    <br>
+  </header>  
+ <div class="container"> <!--Comienzo del form-->
+  <form> 
+   <div class="encabezado-y-pie-del-form">
+     <label>Fecha de solicitud</label>
+   </br>
+     <input type ="text" placeholder="mm/dd/yyyy">
+   </div>
+   <div class="columna">
+   <br>
     <label>Nombre completo</label>
-    <br>
+   <br>
     <input type ="name" placeholder="Pepito Perez">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>Fecha de nacimiento</label>
-    <br>
+   <br>
     <input type ="text" placeholder="mm/dd/yyyy">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>Correo electrónico</label>
-    <br>
+   <br>
     <input type ="email" placeholder="alguien@ejemplo.com">
-</div>
-<div class="columna">
-    <br>    
+   </div>
+   <div class="columna">
+   <br>    
     <label>Telefono</label>
-    <br>
+   <br>
     <input type ="tel" placeholder="5557776">
-</div>
-<div>
-    <br>
+   </div>
+   <div>
+   <br>
     <label>Seleccione su género:</label>
-    <label>
-    <input type="radio" name="genero">
-    Masculino
-    </label> 
-    <label>
-    <input type="radio" name="genero">
-    Femenino
-    </label> 
-    <label>
-    <input type="radio" name="genero">
-    Otro
-    </label>
-</div> 
-<div class="columna" >
-    <br>
-    <label>Departamento:</label>
-    <select>
+    <input type="radio" name="genero">Masculino
+    <input type="radio" name="genero">Femenino
+    <input type="radio" name="genero">Otro
+   </div> 
+   <div class="columna"><!--selector de departamentos-->
+   <br>
+   <label>Departamento:</label>
+   <select>
     <option>Seleccione departamento</option>                     
     <option>Amazonas</option>    
     <option>Antioquia</option>                               
@@ -95,34 +85,34 @@
     <option>Valle del cauca</option>
     <option>Vaupes</option>
     <option>Vichada</option>
-    </select>
-</div>
-<div class="columna">
-    <br>
-    <label>Ciudad</label>
-    <select>
-<option value="0">Seleccione su ciudad</option>
-<option value="1">Abriaqui</option>
-<option value="2">Acaías</option>
-<option value="3">Acandí</option>
-<option value="4">Acevedo</option>
-<option value="5">Achí</option>
-<option value="6">Agrado</option>
-<option value="7">Agua de Dios</option>
-<option value="8">Aguachica</option>
-<option value="9">Aguada</option>
-<option value="10">Aguadas</option>
-<option value="11">Aguazul</option>
-<option value="12">Agustín Codazzi</option>
-<option value="13">Aipe</option>
-<option value="14">Albania</option>
-<option value="15">Albania</option>
-<option value="16">Albania</option>
-<option value="17">Albán</option>
-<option value="18">Albán (San José)</option>
-<option value="19">Alcalá</option>
-<option value="20">Alejandria</option>
-<option value="21">Algarrobo</option>
+   </select>
+   </div>
+   <div class="columna"><!--selector de ciudadees-->
+   <br>
+   <label>Ciudad</label>
+   <select>
+    <option value="0">Seleccione su ciudad</option>
+    <option value="1">Abriaqui</option>
+    <option value="2">Acaías</option>
+    <option value="3">Acandí</option>
+    <option value="4">Acevedo</option>
+    <option value="5">Achí</option>
+    <option value="6">Agrado</option>
+    <option value="7">Agua de Dios</option>
+    <option value="8">Aguachica</option>
+    <option value="9">Aguada</option>
+    <option value="10">Aguadas</option>
+    <option value="11">Aguazul</option>
+    <option value="12">Agustín Codazzi</option>
+    <option value="13">Aipe</option>
+    <option value="14">Albania</option>
+    <option value="15">Albania</option>
+    <option value="16">Albania</option>
+    <option value="17">Albán</option>
+    <option value="18">Albán (San José)</option>
+    <option value="19">Alcalá</option>
+    <option value="20">Alejandria</option>
+    <option value="21">Algarrobo</option>
 <option value="22">Algeciras</option>
 <option value="23">Almaguer</option>
 <option value="24">Almeida</option>
@@ -1202,110 +1192,83 @@
 <option value="1098">Íquira</option>
 <option value="1099">Úmbita</option>
 <option value="1100">Útica</option>
-    </select>
-</div>
-<div>
-    <br>    
+   </select>
+   </div>
+   <div>
+   <br>    
     <label>Dirección</label>
-</div>
-<div>
+   </div>
+   <div>
     <input type="text" placeholder="Cr 22 #22c - 22">
-</div>
-<div>
-    <br>
+   </div>
+   <div>
+   <br>
     <label>Seleccione el tipo de domicilio:</label>
-    <label>
-    <input type="radio" name="status">
-     Casa
-    </label>
-     <label>
-    <input type="radio" name="status">
-     Apartamento
-    </label>
-     <label>
-    <input type="radio" name="status">
-     Finca
-    </label>
-     <label>
-    <input type="radio" name="status">
-     Otro
-    </label>
-</div>
-<div>
+    <input type="radio" name="status">Casa
+    <input type="radio" name="status">Apartamento
+    <input type="radio" name="status">Finca
+    <input type="radio" name="status">Otro
+   </div>
+   <div>
     <label>Expecifique "otro"</label>
     <input type="text">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>Número de integrantes del domicilio</label>
-    <br>
+   <br>
     <input type="text">
-    </section>
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>¿Por qué quieres adoptar una mascota?</label>
-    <br>
+   <br>
     <input type="text">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>¿Tienes experiencia con los animales?:</label>
-    <label>
-    <input type="radio" name="status">
-     Si
-    </label>
-    <input type="radio" name="status">
-     No
-    </label>
-</div>
-<div class="columna">
-    <br>
+    <input type="radio" name="status">Si
+    <input type="radio" name="status">No
+   </div>
+   <div class="columna">
+   <br>
     <label>¿Tienes otras mascotas?:</label>
-    <label>
-    <input type="radio" name="status">
-     Si
-    </label>
-    <input type="radio" name="status">
-     No
-    </label>
-</div>
-<div class="columna">
-    <br>
+    <input type="radio" name="status">Si
+    <input type="radio" name="status">No
+   </div>
+   <div class="columna">
+   <br>
     <label>¿Cuáles son tus ingresos mensuales?</label>
-    <br>
+   <br>
     <input type="number" placeholder="$500.000">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>¿Cuántos ingresos dispones para tu mascotas?</label>
-    <br>
+   <br>
     <input type="number" placeholder="$200.000">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>¿Cuánto tiempo piensas dedicarle a tu mascota?</label>
-    <br>
+   <br>
     <input type="text">
-</div>
-<div class="columna">
-    <br>
+   </div>
+   <div class="columna">
+   <br>
     <label>En caso de estar ausente, ¿Quién cuidariá de tu mascota?</label>
-    <br>
+   <br>
     <input type="text">
-</div>
-<div>
-    <br>
-    <section>
-    <button>Guardar</button>
-    </section>
-</div>
-</form>
-<div>
-    <section>
-    <button>Boton de respuestas</button>
-    </section>
-</div>
-</div>
+   </div>
+  </form>
+  </br> 
+  <div class="encabezado-y-pie-del-form">
+    <button type="submit">Guardar</button>
+  </div>
+</div> <!--div de la clase "container"-->
 </body>
+<footer>
+  <button>Boton de respuestas</button>
+</footer>
 </html>
