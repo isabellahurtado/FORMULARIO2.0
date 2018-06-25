@@ -3,14 +3,14 @@
 }
 
 .container {
-   border:  1px solid #000;
+   border:  1px solid #E6E6E6;
    margin:  70px;
 }
 
 .encabezado-y-pie-del-form {
 	background-color: #D8D8D8; 
 	padding: 10px;
-	border: 1px solid #6E6E6E;
+	border: 1px solid #E6E6E6;
 
 }
 
@@ -29,6 +29,15 @@ input, select {
    padding: 8px;
    width: 500px;
 }
+
+.alineacion {
+   margin-left: 48px;
+   margin-top: 10px;
+}
+
+input[type="date"] {
+   width: 86em;
+} 
 
 button {
    background-color: #0040FF;
